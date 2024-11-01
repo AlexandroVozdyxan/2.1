@@ -18,7 +18,7 @@ def login():
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'GET':
-        return 'GET'
+        return 'kto 4itaet tot sosal'
     if request.method == 'POST':
         return 'POST'
 
